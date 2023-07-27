@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple React project built with TypeScript and integrated with Storybook. It serves as a starting point for developing React applications with TypeScript and provides a convenient way to showcase and test UI components using Storybook.
+This is a simple React project built with TypeScript and integrated with [Storybook] (https://storybook.js.org/docs/react/get-started/why-storybook). It serves as a starting point for developing React applications with TypeScript and provides a convenient way to showcase and test UI components using Storybook.
 
 ## Table of Contents
 
