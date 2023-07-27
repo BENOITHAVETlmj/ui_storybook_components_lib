@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple React project built with TypeScript and integrated with Storybook. It serves as a starting point for developing React applications with TypeScript and provides a convenient way to showcase and test UI components using Storybook.
+This is a simple React project built with [TypeScript](https://www.typescriptlang.org/) and integrated with [Storybook](https://storybook.js.org/docs/react/get-started/why-storybook). It serves as a starting point for developing React applications with TypeScript and provides a convenient way to showcase and test UI components using Storybook.
 
 ## Table of Contents
 
@@ -62,3 +62,8 @@ You will also see any lint errors in the console.
 Open your browser and visit http://localhost:6006.
 
 You can explore different components and their variations in Storybook.
+
+## Colors inspiration from Microsoft Design system [react.fluentui.dev](https://react.fluentui.dev/?path=/docs/theme-colors--page)
+
+![Capture d’écran 2023-07-27 à 14 02 37](https://github.com/BENOITHAVETlmj/ui_storybook_components_lib/assets/47004951/ef661af4-e651-4eb5-86ff-0f080fc892de)
+
