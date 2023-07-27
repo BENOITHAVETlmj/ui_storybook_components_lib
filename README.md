@@ -62,3 +62,8 @@ You will also see any lint errors in the console.
 Open your browser and visit http://localhost:6006.
 
 You can explore different components and their variations in Storybook.
+
+## Design system inspiration from Microsoft [react.fluentui.dev](https://fluent2.microsoft.design/)
+
+![Capture d’écran 2023-07-27 à 14 02 37](https://github.com/BENOITHAVETlmj/ui_storybook_components_lib/assets/47004951/ef661af4-e651-4eb5-86ff-0f080fc892de)
+
