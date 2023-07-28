@@ -6,10 +6,15 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  width: fit-content;
+  transition: 0.5s;
+}
+.storybook-button:hover {
+  box-shadow: 0 0 3px #7f85f5;
+  margin-top: -10px;
 }
 .storybook-button--primary {
   color: white;
-  border: 1px solid #ffff;
   background-color: #7f85f5;
 }
 .storybook-button--secondary {
