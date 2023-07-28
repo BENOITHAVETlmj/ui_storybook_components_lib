@@ -23,6 +23,19 @@ const meta = {
   component: TabComponent,
   parameters: {
     layout: "centered",
+    backgrounds: {
+      default: "light",
+      values: [
+        {
+          name: "light",
+          value: "#ffff",
+        },
+        {
+          name: "darkMode",
+          value: "black",
+        },
+      ],
+    },
   },
   tags: ["autodocs"],
 } satisfies Meta<typeof TabComponent>;
@@ -44,5 +57,8 @@ export const Dark: Story = {
   args: {
     dark: true,
     tabs: tabs,
+  },
+  parameters: {
+    backgrounds: { default: "darkMode" },
   },
 };

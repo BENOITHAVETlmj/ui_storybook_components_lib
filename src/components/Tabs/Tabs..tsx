@@ -7,8 +7,17 @@ interface Tab {
 }
 
 interface TabProps {
+  /**
+   * Array of tab to map
+   */
   tabs: Tab[];
+  /**
+   * Optional event for stories onClick
+   */
   onAction?: () => void;
+  /**
+   * Is mode is Dark?
+   */
   dark?: boolean;
 }
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./button.css";
 
 interface ButtonProps {
@@ -10,6 +9,10 @@ interface ButtonProps {
    * What background color to use
    */
   backgroundColor?: string;
+  /**
+   * Is my button disabled?
+   */
+  disabled?: boolean;
   /**
    * How large should the button be?
    */
@@ -30,6 +33,7 @@ interface ButtonProps {
 export const Button = ({
   primary = false,
   size = "medium",
+  disabled = false,
   backgroundColor,
   label,
   ...props
@@ -37,12 +41,18 @@ export const Button = ({
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
+  const disabledMode = disabled
+    ? "storybook-button--disabled"
+    : "storybook-button--enabled";
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
-      )}
+      className={[
+        "storybook-button",
+        `storybook-button--${size}`,
+        mode,
+        disabledMode,
+      ].join(" ")}
       style={{ backgroundColor }}
       {...props}
     >

@@ -1,18 +1,29 @@
 .tab-component {
-    background-color:#e8ebfa;
-    padding: 4px 8px 4px 8px;
-    border-radius: 8px;
-    border: 3px solid #7f85f5;
-}
-
-.tab-component--dark-mode {
     background-color:#7f85f5;
     padding: 4px 8px 4px 8px;
     border-radius: 8px;
     border: 3px solid #b6bcfa;
 }
 
+.tab-component--dark-mode {
+    background-color:#e8ebfa;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+    border: 3px solid #7f85f5;
+}
+
 .tab-header button {
+    background-color:#7f85f5;
+    color: #ffff;
+    padding: 12px;
+    margin: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.tab-header .button--dark-mode {
     padding: 12px;
     margin: 4px;
     border: none;
@@ -24,31 +35,22 @@
     transition: background-color 0.3s ease;
 } 
 
-.tab-header .button--dark-mode {
-    background-color:#7f85f5;
-    color: #ffff;
-    padding: 12px;
-    margin: 4px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
-} 
-
 .tab-header button:hover {
   box-shadow: inset 0 -3px 0 #ffff;  
 } 
 
 .tab-header button.active {
-    box-shadow: inset 0 -3px 0 #4f52b2;  
-    font-weight: bold;
-}
-
-.tab-header .active--dark-mode {
     background-color:#7f85f5;
     color: #b6bcfa;
     box-shadow: inset 0 -3px 0 #b6bcfa;  
     font-weight: bold;
+}
+
+.tab-header .active--dark-mode {
+    box-shadow: inset 0 -3px 0 #4f52b2; 
+    background-color:#e8ebfa; 
+    font-weight: bold;
+    color: #4f52b2;
 }
 
 
